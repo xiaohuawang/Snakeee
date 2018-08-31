@@ -33,8 +33,8 @@ public class Yard extends Frame {
 //        egg.appearAgain();
 
         // draw the score
-        g.setColor(Color.yellow);
-        g.drawString("score= "+score,10,10);
+//        g.setColor(Color.yellow);
+//        g.drawString("score= "+score,10,10);
 
         snake.eat(egg);
         snake.draw(g);
